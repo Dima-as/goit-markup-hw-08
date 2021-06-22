@@ -1,8 +1,9 @@
 /*================== PAGE-HEADER ====================== */
 .page-header {
 	@media screen and (max-width: 767px) {
-	display: none;
-	 }
+		padding: 10px 0px;
+		
+		 }
 	border-bottom:  1px solid #ECECEC;
 
 	@media screen and (min-width: 768px) {
@@ -17,6 +18,11 @@
 
 }
 .page-header__wrappere{
+	@media screen and (max-width: 767px) {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	 }
 	@media screen and (min-width: 768px) {
 		display: flex;
 		align-items: center;
@@ -32,4 +38,25 @@
 .page-header__logo{
    margin-right: 93px;
    color: #000000;
+}
+.page-header__button-menu{
+	@media screen and (min-width: 768px) {
+		display: none;
+	 }
+	 	padding: 0;
+	 	line-height: 0;
+		border: none;
+		background-color: transparent;
+		fill: #000000;
+		cursor: pointer;
+		transition: fill $animation;
+		&:hover,&:focus{
+			fill: $Accent;
+	  }
+  
+	 & .page-header__icon{
+		 width: 40px;
+		 height: 40px;
+	 }
+
 }
