@@ -47,9 +47,7 @@
    margin-bottom: 20px;
    color: $White-color;
 }
-.page-footer__contacts--city {
-   color: $White-color;
-}
+
 .page-footer__contacts {
 	font-style: normal;
 	font-size: 14px;
@@ -60,6 +58,9 @@
 	&:hover,&:focus{
 		color: $Accent;
 	}
+}
+.page-footer__contacts--city {
+   color: $White-color;
 }
 
 .page-footer__item {

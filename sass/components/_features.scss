@@ -11,12 +11,6 @@
 	
 	 }
 
-	// @media screen  and (min-width: 1200px){
-	// 	display: flex;
-	// 	flex-wrap: wrap;
-	// 	margin: -15px;
-	// }
-   
 }
 
 .features__item{
@@ -39,7 +33,12 @@
 
 
 .features__icon {
+	 height: 120px;
 	 text-align: center;
+	 display: flex;
+	 justify-content: center;
+	 align-items: center;
+
 	 margin-bottom: 30px;
 	 background: #F5F4FA;
 	 border-radius: 4px;

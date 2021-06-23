@@ -55,7 +55,7 @@
    height: 100%;
 	opacity: 0;
    transform: translateY(100%);
-   transition: transform $animation;
+   transition: transform $animation, opacity $animation;
    background-color: $Accent;
 	.cards__link:hover & , .cards__link:focus &{
 		transform: translateY(0);
